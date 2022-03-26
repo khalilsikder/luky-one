@@ -1,21 +1,27 @@
 import React from 'react';
 import './Card.css'
+import {BsFillCartCheckFill} from 'react-icons/bs';
 const Card = ({data}) => {
-    const {name,img,price}= data;
+    const {name,img,price,id}= data;
     console.log(data);
-    return (
-        <div className='card'>
-            <div className='img-container'>
+   const handleAddToCart =() =>{
+       console.log('AddToCart')
+   };
+    return (    
+    <div className='card'>
+         <div className='img-container'>
             <img src={img} alt=''></img>
-            </div>
+        </div>
             <h1>{name}</h1>
             <p>price :{price}</p>
-            <div>
-                <button>
-                    add to card
-                </button>
-            </div>
+        <div className='add-to-cart'>
+            <button onClick={()=>handleAddToCart(id)}>
+             <BsFillCartCheckFill className ='icon'/>
+            </button>
         </div>
+             
+    </div>
+
         
     );
 };
