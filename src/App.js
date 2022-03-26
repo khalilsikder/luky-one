@@ -8,14 +8,24 @@ const App = () => {
         fetch('data.json')
         .then(res =>res.json())
         .then(data =>setLaptops(data))
+
+       
+
     },[]);
+
+    const handleAddToCart =() =>{
+        // console.log('AddToCart')
+    };
+
     return (
         <div> 
           
         {
-            laptops.map((laptop) => (<Card key ={laptop.id} data={laptop}/>
-            ))}    
+            laptops.map((laptop) => (<Card key ={laptop.id} data={laptop} handleAddToCart={handleAddToCart}/>
+         ))} 
+
         </div>
+
     );
 };
 
