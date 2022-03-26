@@ -1,43 +1,43 @@
 [
     {
       "id": 1,
-      "img": "https://ibb.co/fM13hJT",
+      "img": "https://i.ibb.co/GJkmkKB/pexels-format-1029757.jpg",
       "price": 55000,
       "name": "lenovo"
     },
     {
       "id": 2,
-      "img": "https://ibb.co/yS1DZ1j",
+      "img": "https://i.ibb.co/df9tqYK/pexels-hasan-albari-1229861.jpg",
       "price": 70000,
       "name": "tosiba"
     },
     {
       "id": 3,
-      "img": "https://ibb.co/tHDN5g8",
+      "img": "https://i.ibb.co/PcDkYW7/pexels-karsten-madsen-18105.jpg",
       "price": 75000,
       "name": "samsung"
     },
     {
       "id": 4,
-      "img": "https://ibb.co/Fw0T0Sy",
+      "img": "https://i.ibb.co/J54FkpX/pexels-nao-triponez-129208.jpg",
       "price": 85000,
       "name": "walton"
     },
     {
       "id": 5,
-      "img": "https://ibb.co/mJTwLJR",
+      "img": "https://i.ibb.co/bWNSMDf/pexels-pixabay-40185.jpg",
       "price": 150000,
       "name":"apple"
     },
     {
       "id": 6,
-      "picture": "https://ibb.co/0YZMVLF",
+      "img": "https://i.ibb.co/47zSBxC/pexels-pixabay-459653.jpg",
       "price": 50000,
       "name": "accer"
     },
     {
       "id": 7,
-      "img": "https://ibb.co/y6jjWdS",
+      "img": "https://i.ibb.co/mbM4wBq/pexels-reezky-pradata-441963.jpg",
       "price": 68000,
       "name": "compact"
     }
