@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "img": "https://ibb.co/fM13hJT",
+      "price": 55000,
+      "name": "lenovo"
+    },
+    {
+      "id": 2,
+      "img": "https://ibb.co/yS1DZ1j",
+      "price": 70000,
+      "name": "tosiba"
+    },
+    {
+      "id": 3,
+      "img": "https://ibb.co/tHDN5g8",
+      "price": 75000,
+      "name": "samsung"
+    },
+    {
+      "id": 4,
+      "img": "https://ibb.co/Fw0T0Sy",
+      "price": 85000,
+      "name": "walton"
+    },
+    {
+      "id": 5,
+      "img": "https://ibb.co/mJTwLJR",
+      "price": 150000,
+      "name":"apple"
+    },
+    {
+      "id": 6,
+      "picture": "https://ibb.co/0YZMVLF",
+      "price": 50000,
+      "name": "accer"
+    },
+    {
+      "id": 7,
+      "img": "https://ibb.co/y6jjWdS",
+      "price": 68000,
+      "name": "compact"
+    }
+  ]
