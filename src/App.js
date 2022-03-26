@@ -8,10 +8,7 @@ const App = () => {
         fetch('data.json')
         .then(res =>res.json())
         .then(data =>setLaptops(data))
-
-       
-
-    },[]);
+      },[]);
 
     const handleAddToCart =() =>{
         // console.log('AddToCart')
