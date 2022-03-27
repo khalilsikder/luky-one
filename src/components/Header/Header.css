@@ -1,0 +1,19 @@
+.header{
+    background-color: gray;
+    color: coral;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 90px;
+    padding-right: 140px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+    color: mediumvioletred;
+    font-size: 18px;
+    font-style: italic;
+    margin-left: 10px;
+}
+.header a:hover{color: yellow;}
+.header:hover{color: yellow;}
