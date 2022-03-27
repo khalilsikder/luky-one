@@ -6,7 +6,7 @@ const Card = ({data,handleAddToCart}) => {
     // console.log(data);
    
     return (    
-    <div className='card'>
+    <div>
          <div className='img-container'>
             <img src={img} alt=''></img>
         </div>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from './components/Card/Card';
+import Header from './components/Header/Header';
 
 
 const App = () => {
@@ -15,12 +16,8 @@ const App = () => {
     };
 
     return (
-        <div> 
-          
-        {
-            laptops.map((laptop) => (<Card key ={laptop.id} data={laptop} handleAddToCart={handleAddToCart}/>
-         ))} 
-
+        <div>
+           <Header></Header> 
         </div>
 
     );
