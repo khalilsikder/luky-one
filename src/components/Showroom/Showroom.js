@@ -30,7 +30,7 @@ const Showroom = () => {
             </div>
             <div className="card-container">
                <h3>Order summary</h3>
-               <p>select iteams:  {cart.length}</p> 
+               <p>Select Iteams:  {cart.length}</p> 
             </div>
         </div>
     );
