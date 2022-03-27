@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Showroom from '../Showroom/Showroom';
 import Header from './components/Header/Header';
-
-
 const App = () => {
     return (
         <div>
-           <Header></Header>
+            <Header></Header>
            <Showroom></Showroom> 
         </div>
-
     );
 };
 
 export default App;
+
+
+
