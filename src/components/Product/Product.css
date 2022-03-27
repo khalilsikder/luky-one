@@ -1,0 +1,17 @@
+
+.product{text-align: center;
+}
+.product img{width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 2px solid coral;
+    border-radius: 5px;
+}
+.btn-cart{
+    width: 70%;
+    height: 40px;
+    background-color: mediumspringgreen;
+}
+.btn-cart:hover{
+    background-color:slateblue;
+}

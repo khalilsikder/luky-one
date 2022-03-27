@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Product from '../Product/Product';
 import './Showroom.css'
 
 const Showroom = () => {
@@ -8,6 +9,10 @@ const Showroom = () => {
         .then(res =>res.json())
         .then(data =>setProducts(data))
     },[])
+
+    const handleAddToCart = (product)=>{
+        console.log(Product);
+    }
     return (
         <div className='showroom-container'>
             <div className="products-container">
@@ -15,6 +20,7 @@ const Showroom = () => {
                     products.map(product =><Product
                      key ={product.id}
                      product={product}
+                     handleAddToCart={handleAddToCart}
                      >
                     </Product>)
                 }
