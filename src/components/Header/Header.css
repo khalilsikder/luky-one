@@ -1,0 +1,26 @@
+.header1{
+
+}
+.header{
+    background-color: darkolivegreen;
+    color: coral;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left:140px;
+    padding-right: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h2:hover{color: yellow;
+
+}
+.header a{
+    color: coral;
+    font-size: 16px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.header a:hover{
+    color: yellow;
+}
