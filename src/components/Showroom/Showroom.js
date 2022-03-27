@@ -8,7 +8,7 @@ const Showroom = () => {
            </div>
            <div className="product-cart">
                Order summary
-               </div> 
+               </div>  
         </div>
     );
 };
