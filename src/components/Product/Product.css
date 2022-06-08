@@ -4,14 +4,16 @@
 .product img{width: 250px;
     height: 250px;
     margin: 10px;
-    border: 2px solid coral;
+    border: 2px solid cyan;
     border-radius: 5px;
 }
 .btn-cart{
     width: 70%;
     height: 40px;
-    background-color: mediumspringgreen;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    background-color: mediumaquamarine;
 }
 .btn-cart:hover{
-    background-color:slateblue;
+    background-color:coral;
 }

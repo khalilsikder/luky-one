@@ -3,22 +3,28 @@
     grid-template-columns: 4fr 1fr;
 }
 .products-container{
-    background-color: cyan;
+    background-color:cadetblue;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-left: 20px;
 }
 .card-container{
     background-color: gray;
-    color:coral;
-    font-size: large;
+    color:mediumaquamarine;
+    font-size: 20px;
     text-align: center;
     margin-right: 20px;
 }
-.card-container p{
-    background-color: mediumturquoise;
-    color: cornflowerblue;
+.card-container button{
+    color: slateblue;
+    background-color: mediumaquamarine;
     border: 2px solid yellow;
+    border-radius: 15px;
+    padding: 4px;
+    margin: 4px;
+}
+.card-container p{
+    color:mediumaquamarine;
     margin-left: 20px;
     margin-right: 20px;
 }

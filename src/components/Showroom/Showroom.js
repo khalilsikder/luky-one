@@ -30,8 +30,12 @@ const Showroom = () => {
             </div>
             <div className="card-container">
                <h3>Order summary</h3>
-               <p>choose one:  {cart.length}</p>
-               <p>choose again</p>
+               <button>choose one:{cart.length}</button>
+               <button>choose again</button>
+               
+               {
+                   cart.map(cart=><p>name:{cart.name}</p>)
+               }
             </div>
         </div>
     );
