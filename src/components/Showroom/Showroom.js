@@ -16,6 +16,7 @@ const Showroom = () => {
         const newCart =[...cart,product]
         setCart(newCart);
     }
+    const emptyCart=()=>{setCart([])}
     return (
         <div className='showroom-container'>
             <div className="products-container">
@@ -31,7 +32,7 @@ const Showroom = () => {
             <div className="card-container">
                <h3>Order summary</h3>
                <button>choose one:{cart.length}</button>
-               <button>choose again</button>
+               <button onClick={emptyCart}>choose again</button>
                
                {
                    cart.map(cart=><p>name:{cart.name}</p>)
