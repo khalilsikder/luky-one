@@ -16,12 +16,14 @@
     margin-right: 20px;
 }
 .card-container button{
-    color: slateblue;
     background-color: mediumaquamarine;
     border: 2px solid yellow;
     border-radius: 15px;
     padding: 4px;
     margin: 4px;
+}
+.card-container button:hover{
+    background-color: coral;
 }
 .card-container p{
     color:mediumaquamarine;
